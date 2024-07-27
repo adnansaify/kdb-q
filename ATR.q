@@ -2,7 +2,7 @@ filepath:"C:\\Users\\adnan\\Downloads\\BANKNIFTY.txt"
 
 trade:read0 `$filepath
 
-column_name:(`Symbol,`Date,`Time,`Open,`Close,`High,`Low)
+column_name:(`Symbol,`Date,`Time,`Open,`High,`Low,`Close)
 
 table_trade:flip column_name !("SDTFFFF"; ",") 0:trade
 
